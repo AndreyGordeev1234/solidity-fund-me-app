@@ -31,3 +31,9 @@ brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://12
 ```
 
 4. Rinkeby - persistent network
+
+## Environment variables
+
+PRIVATE_KEY - wallet private key
+WEB3_INFURA_PROJECT_ID - project id from infura for developing to persistent networks
+ETHERSCAN_TOKEN - api token from etherscan for contract verification
