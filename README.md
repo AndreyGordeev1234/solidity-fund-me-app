@@ -25,4 +25,9 @@ brownie test
 1. Development - default
 2. ganache-local - with local ganache
 3. mainnet-fork-dev - fork from mainnet (need to add it to brownie)
+
+```
+brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://127.0.0.1 fork='https://mainnet.infura.io/v3/$WEB3_INFURA_PROJECT_ID' accounts=10 mnemonic=brownie port=8545
+```
+
 4. Rinkeby - persistent network
